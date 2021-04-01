@@ -1,18 +1,18 @@
-// let repeatingTextScroller = document.querySelector('.repeatingTextScroller > span')
-// repeatingTextScroller.innerHTML = '&nbsp;' + repeatingTextScroller.textContent
-// let scrollingText = repeatingTextScroller.textContent
-// let originalWidth = repeatingTextScroller.offsetWidth
-// let margin = 0
+let repeatingTextScroller = document.querySelector('.repeatingTextScroller > span')
+repeatingTextScroller.innerHTML = '&nbsp;' + repeatingTextScroller.textContent
+let scrollingText = repeatingTextScroller.textContent
+let originalWidth = repeatingTextScroller.offsetWidth
+let margin = 0
 
-// generateScrollerText()
-// setInterval(animateScrollerText, 20)
+generateScrollerText()
+setInterval(animateScrollerText, 20)
 
 
-// function generateScrollerText() {
-//     while (repeatingTextScroller.offsetWidth <= 3840) {
-//         repeatingTextScroller.textContent += scrollingText
-//     }
-// }
+function generateScrollerText() {
+    while (repeatingTextScroller.offsetWidth <= 3840) {
+        repeatingTextScroller.textContent += scrollingText
+    }
+}
 
 
 // function animateScrollerText() {
